@@ -1,0 +1,57 @@
+{
+  "intents": [
+  {
+    "tag": "greetings",
+    "patterns": ["Hai","Hello","Halo","Hi there!", "Hi!", "howdy","Hellow","Hey"],
+    "responses":  ["Hello!","Hi!","Whats up?","Hey"]
+  },
+  {
+    "tag": "goodbye",
+    "patterns": ["Goodbye!","Byebye","See you later!","bye","See ya!","cya"],
+    "responses":  ["Goodbye!","Talk to you later!","Sad to see you go :("]
+  },
+  {
+    "tag": "name",
+    "patterns": ["What is your name","Who are you","Can you tell me your name"],
+    "responses": ["Hi my name is Init, I'm here as your companion"]
+  },
+  {
+    "tag": "age",
+    "patterns": ["How old are you?","When were you created?","What is your age?"],
+    "responses": ["I was created in july 2021","I am only 1 month old"]
+  },
+    {
+      "tag": "specs",
+      "patterns": ["specs","specification","system specifications","system info","What libraries are needed to make you"],
+      "responses": ["I am created using python, implementing tensorflow and other libraries"]
+    },
+    {
+      "tag": "motivate",
+      "patterns": ["I need some motivation","Can you give me some advice?","Can you tell me a quote?",
+      "Tell me an inspiring quote","I need some Inspiration"],
+      "responses": ["The greatest glory in living lies not in never falling, but in rising every time we fall.",
+      "Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking.",
+      "If life were predictable it would cease to be life, and be without flavor.",
+      "If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough.",
+      "If you set your goals ridiculously high and it's a failure, you will fail above everyone else's success.",
+      "Don't judge each day by the harvest you reap but by the seeds that you plant."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["I need some help","Can you help me?","Can you give me a hand?","I'm having a little bit of trouble","Can you help me with something?"],
+      "responses": ["Sure, how can I help you?","Absolutely, What can I do for you?", "Sure, What's your problem?","Okay,What do you need?"]
+    },
+    {
+      "tag": "lonely",
+      "patterns": ["I feel lonely","I have no friends","I feel alone","I don't have anyone","Can you accompany me?"],
+      "responses": ["Remember: the time you feel lonely is the time you most need to be by yourself. Life's cruelest irony.",
+      "A lonely day is God’s way of saying that he wants to spend some quality time with you.",
+      "The soul that sees beauty may sometimes walk alone."]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["tell me a joke","humor me","do you know a joke?","make me laugh","laugh","tell me something funny","funny"],
+      "responses": ["What’s the difference between England and a tea bag?\n The tea bag stays in the cup longer.",
+      "Why did the chicken commit suicide?\n To get to the other side."]
+    }
+  ]}
